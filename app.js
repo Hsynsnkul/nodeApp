@@ -4,7 +4,7 @@ const app=express();
 app.use(express.json());
 
 app.get('/',(req,res)=>{
-    res.send('node api');
+    res.send('Hello body');
 })
 
 
